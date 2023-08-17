@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Balthazar', serif;
+  color: #094067;
 }
 body {
   margin: 0;
@@ -12,12 +13,12 @@ body {
 
 /* Navbar */
 .navbar-container {
-  color: #f74040;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   background-color:white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .hamburger-menu-container, .hamburger-menu {
   display: none;
@@ -28,12 +29,13 @@ body {
   align-items: center;
 }
 .logo-container h4 {
+  font-size: 20px;
   padding-top: 10px;
 }
 .logo-container img {
   height: 50px;
   margin-left: 10px;
-  margin-right: -7px;
+  margin-right: 10px;
 }
 .menu {
   display: flex;
@@ -44,7 +46,6 @@ body {
 }
 .menu a {
   text-decoration: none;
-  color: #f74040;
   transition: transform .5s ease;
 }
 .menu a:hover {

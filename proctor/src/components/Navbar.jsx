@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="logo-container">
-        <img src="https://i.ibb.co/ch3V51s/Legacy-Logo.png" alt="Logo" />
+        <img src="./public/logo.png" alt="Logo" />
         <h4>Proctor Civil Construction LLC</h4>
       </div>
 
