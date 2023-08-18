@@ -13,7 +13,7 @@ const Home = () => {
         <p>At Proctor Civil Construction, we are dedicated to turning your construction dreams into reality. With a strong foundation in civil engineering and construction expertise, we specialize in delivering exceptional projects that transform communities. From concept to completion, our team of skilled professionals is committed to delivering quality, safety, and innovation.</p>
         <div className="button-container">
         <button className="hero-btn" onClick={handleOurServicesClick}>Our Services</button>
-          <button className="hero-btn"><a href="tel:+1956">Contact Us</a></button>
+          <button className="hero-btn"><a className="link" href="tel:+1956">Call Now</a></button>
         </div>
       </div>
       <div className="about-owner">

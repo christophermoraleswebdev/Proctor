@@ -156,6 +156,9 @@ body {
   border: white;
   cursor: pointer;
 }
+.hero-btn:hover .link {
+  color: #094067;
+}
 /* About Us */
 .about-owner {
   background-color: rgb(242, 242, 242);
@@ -311,6 +314,7 @@ body {
   border: 1px solid lightgray;
   transform: scale(1.1);
   color: #094067;
+  cursor: pointer;
 }
 .email-btn a {
   text-decoration: none;
