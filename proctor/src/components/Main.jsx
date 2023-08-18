@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Home from './Home'
 import Services from './Services'
-import AboutUs from './AboutUs'
 import ContactUs from './ContactUs'
 
 
@@ -17,10 +16,6 @@ const Main = () => {
       <Route
         path="/services"
         element={<Services />}
-      />
-      <Route
-        path="/aboutUs"
-        element={<AboutUs />}
       />
       <Route
         path="/contactUs"

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="logo-container">
-        <img src="./public/logo.png" alt="Logo" />
+        <img src="logo.png" alt="Logo" />
         <h4>Proctor Civil Construction LLC</h4>
       </div>
 
@@ -19,7 +19,6 @@ const Navbar = () => {
       <div className={`menu ${menuVisible ? 'mobile-menu-active' : ''}`}>
             <Link to='/'>Home</Link>
             <Link to='/services'>Services</Link>
-            <Link to='/aboutUs'>About Us</Link>
             <Link to='/contactUs'>Contact Us</Link>
       </div>
 
@@ -28,7 +27,6 @@ const Navbar = () => {
       <div className={`hamburger-menu-container ${menuVisible ? 'active' : ''}`}>
             <Link to='/'>Home</Link>
             <Link to='/services'>Services</Link>
-            <Link to='/aboutUs'>About Us</Link>
             <Link to='/contactUs'>Contact Us</Link>
       </div>
     </div>
