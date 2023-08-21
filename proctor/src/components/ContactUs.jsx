@@ -22,7 +22,7 @@ const ContactUs = () => {
 
       return (
             <div id="contact-form" className="contact-container">
-                  <h1 className="contact-us">CONTACT US</h1>
+                  <h1 id='contact-header' className="contact-us">CONTACT US</h1>
                   <div className='contact-info'>
                     <h3>Email: aldosalinas8@gmail.com</h3>
                     <button className='email-btn'>
@@ -35,7 +35,7 @@ const ContactUs = () => {
                     <a className="contact-phone" href="tel:+19563305494">Click to Call</a>
                     </button>
                   </div>
-                  <h1 className='contact-us'>Request a Quote</h1>
+                  <h1 className='contact-us'>REQUEST A QUOTE</h1>
                   <form ref={form} onSubmit={sendEmail}>
                     <label >Name:</label>
                     <input type="text" id="name" name="from_name" placeholder="Your Name"/>
